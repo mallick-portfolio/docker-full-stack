@@ -1,0 +1,39 @@
+# Ignore the virtual environment directory in the backend folder
+/backend/venv/
+
+# Ignore the node_modules directory in the frontend folder
+/frontend/node_modules/
+
+# Ignore .pnp files in the root directory
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Ignore test coverage directories
+/coverage
+
+# Ignore Next.js build output
+/frontend/.next/
+/frontend/out/
+
+# Ignore production build output
+/build
+
+# Miscellaneous files
+.DS_Store
+*.pem
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore environment files
+.env*.local
+
+# Ignore Vercel deployment folder
+.vercel
+
+# Ignore TypeScript build info files
+*.tsbuildinfo
+next-env.d.ts
