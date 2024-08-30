@@ -1,8 +1,7 @@
 # Ignore the virtual environment directory in the backend folder
 /backend/venv/
 
-# Ignore the node_modules directory in the frontend folder
-/frontend/node_modules/
+/frontend/node_modules
 
 # Ignore .pnp files in the root directory
 /.pnp
@@ -30,6 +29,7 @@ yarn-error.log*
 
 # Ignore environment files
 .env*.local
+**.env
 
 # Ignore Vercel deployment folder
 .vercel
