@@ -1,15 +1,13 @@
-import Image from "next/image";
-import { Button } from "@/components/ui/button";
+import React from "react";
 
-export default function Home() {
+const Home = () => {
   return (
-    <main className="">
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita natus
-        nisi reiciendis! Voluptatem rerum sint nostrum ipsa magni ex animi
-        expedita quam aperiam modi. Tempora molestias ipsa voluptatibus sunt et?
-      </div>
-      <Button className="text-secondary">Click me</Button>
-    </main>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt veniam
+      excepturi ipsam officiis recusandae sint aperiam reiciendis tenetur autem
+      sunt. Voluptatibus quidem vel qui nam ab, quasi magni dolores voluptate!
+    </div>
   );
-}
+};
+
+export default Home;
