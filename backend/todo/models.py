@@ -13,6 +13,7 @@ class Todo(models.Model):
 
 class EmailQueue(models.Model):
     to = models.CharField(max_length=250, null=False, blank=False)
+    from_user = models.CharField(max_length=250, null=True, blank=True)
     cc = models.CharField(max_length=250, null=False, blank=False)
     subject = models.CharField(max_length=250, null=False, blank=False)
     body = models.TextField()
